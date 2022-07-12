@@ -1,3 +1,7 @@
+--[[
+    In this file i did some experiments with booleans and variables
+]]--
+
 local a1 = true and false
 print(a1)
 
