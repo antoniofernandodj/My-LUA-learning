@@ -1,3 +1,9 @@
+--[[
+    In this file i will se some examples around 2d and 3d tables,
+    things about dictionaries (or tables with index) and things
+    around this like iterating
+]]--
+
 local arr = {'a', 'b', 'c', 'd', 'e'}
 
 local matrix = {
@@ -14,8 +20,8 @@ for i, line in pairs(matrix) do
     end
 end
 
-print('\nthe "for i = 1, #matrix[1] do" way of iterate...')
-for i = 1, #matrix[1] do
+print('\nthe "for i = 1, #matrix do" way of iterate...')
+for i = 1, #matrix do
     for j = 1, #matrix[1] do
         print('['..i..','..j..']'..': '..matrix[i][j])
     end
